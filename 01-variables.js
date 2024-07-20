@@ -10,7 +10,7 @@ variableTwo = 77; // initializing (assigning a value to) variableTwo
 
 //  - const
 const variableThree = true; // when using const, you have to declare and initialize the  variable in the same expression (line of code)
-console.log(variableThree);
+// console.log(variableThree);
 
 const variableFour = false;
 
@@ -21,6 +21,17 @@ variableOne = "variableOne has been updated (reassigned)";
 variableTwo = "variableTwo has also been updated";
 // console.log(variableTwo);
 
-variableThree = "something else"; // this will throw an error because you cannot reassign values to constant variables
+// variableThree = "something else"; // this will throw an error because you cannot reassign values to constant variables
 // console.log(variableThree);
 // console.log(variableTwo);
+
+// let f = "John";
+// let l = "Wick";
+
+// console.log(f + " " + l);
+// console.log(`${f} ${l}`);
+
+let a = 2;
+let b = "2";
+
+console.log(String(a) === Number(b));
