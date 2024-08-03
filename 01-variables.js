@@ -32,6 +32,7 @@ variableTwo = "variableTwo has also been updated";
 // console.log(`${f} ${l}`);
 
 let a = 2;
+let c = new Number(7)
 let b = "2";
 
-console.log(String(a) === Number(b));
+console.log(a.toString() === Number(b).toString());
